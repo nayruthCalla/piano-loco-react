@@ -22,7 +22,6 @@ const ComponentKey = ({coordints, flag, audio, text}) => {
 
   const newAudio = new Audio(audio);
   const handleOnStart = () => {
-    console.log(audio,text.t);
     newAudio.play();
   }
  

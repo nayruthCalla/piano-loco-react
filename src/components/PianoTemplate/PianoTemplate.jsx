@@ -307,14 +307,11 @@ const P = styled.p`
 
 const PianoTemplate = () => {
 
-  const onKeyDownHandler = (e) => {
-    console.log(e.keyCode)
-    
+  const onKeyDownHandler = (e) => {       
    data.forEach(({text,audio})=>{
     const newAudio = new Audio(audio);
     if (e.keyCode === text.ky) {
       newAudio.play();
-      console.log('You pressed the escape key!')
     }
    })
   }
