@@ -303,6 +303,9 @@ const P = styled.p`
   font-style: normal;
   font-size: 16px;
   color: #f7fff769;
+  &:hover{
+    color: #b6503eae;
+  }
 `;
 
 const PianoTemplate = () => {
