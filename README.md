@@ -26,7 +26,7 @@
 
 ✅ Se implemento con styled Components
 
-✅ El diseño de alta fidelidad fue dado por Make It Real
+✅ El diseño de alta fidelidad y parte de la maketación principal en html fue dado por Make It Real
 
 
 ## Tecnologías utilizadas
