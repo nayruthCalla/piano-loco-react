@@ -306,6 +306,12 @@ const P = styled.p`
   &:hover{
     color: #b6503eae;
   }
+  &.pointer{
+    cursor : pointer;
+  }
+`;
+const Pt = styled(P)`
+  color: #f7fff769;
 `;
 
 const PianoTemplate = () => {
@@ -336,7 +342,7 @@ const PianoTemplate = () => {
           <ComponentKey key = {index} coordints = {style} flag = {flag} audio = {audio} text = {text}/>)
         }
         </svg>
-        <P>Made by Nayruth Calla @ 2021</P>
+        <Pt>Made by Nayruth Calla @ 2021</Pt>
     </Container>
   )
 }
