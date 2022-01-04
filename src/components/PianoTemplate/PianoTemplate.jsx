@@ -310,8 +310,11 @@ const P = styled.p`
     cursor : pointer;
   }
 `;
-const Pt = styled(P)`
-  color: #f7fff769;
+const Pt = styled.p`
+  font-family: Comic Neue;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffffb0;
 `;
 
 const PianoTemplate = () => {
