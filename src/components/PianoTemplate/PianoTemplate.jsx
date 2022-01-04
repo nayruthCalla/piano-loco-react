@@ -302,7 +302,7 @@ const P = styled.p`
   font-family: Comic Neue;
   font-style: normal;
   font-size: 16px;
-  color: rgb(244 0 130 / 51%);
+  color: #b32d6aa6;
   &:hover{
     color: #b6503eae;
   }
